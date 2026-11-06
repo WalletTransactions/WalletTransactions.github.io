@@ -1,0 +1,53 @@
+site_name: Посчитай и сбереги
+site_description: Учёт личных финансов — Android, веб-кабинет, Telegram-бот и ИИ-помощник
+docs_dir: docs
+theme:
+  name: material
+  language: ru
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle: { icon: material/weather-night, name: Тёмная тема }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle: { icon: material/weather-sunny, name: Светлая тема }
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.tabs.link
+plugins:
+  - search:
+      lang: [ru, en]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - О продукте: index.md
+  - Возможности:
+      - Обзор сервисов: services.md
+      - Учёт денег: features/accounting.md
+      - Валюты и курсы: features/currencies.md
+      - Отчёты и аналитика: features/reports.md
+      - ИИ-помощник: features/ai.md
+      - Совместный кошелёк: features/sharing.md
+      - Telegram-бот: features/telegram.md
+      - Подключение ИИ-ассистентов (MCP): features/mcp.md
+  - Где пользоваться: platforms.md
+  - Из чего состоит: components.md
+  - Безопасность и приватность: privacy.md
+  - В разработке: roadmap.md
