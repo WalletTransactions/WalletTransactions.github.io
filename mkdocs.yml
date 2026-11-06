@@ -19,15 +19,61 @@ theme:
     - navigation.top
     - search.suggest
     - content.tabs.link
+
 plugins:
-  - search:
-      lang: [ru, en]
+  - search
+  # Локализация: docs/<locale>/ — одна папка на язык, одинаковые имена файлов.
+  # Новый язык = папка + запись в languages (см. README, «Как добавить язык»).
+  # Непереведённая страница показывается на языке по умолчанию (fallback).
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: ru
+          name: Русский
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Count & Save
+          site_description: Personal finance — Android app, web dashboard, Telegram bot and AI assistant
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: teal
+                toggle: { icon: material/weather-night, name: Dark theme }
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: teal
+                toggle: { icon: material/weather-sunny, name: Light theme }
+          nav_translations:
+            О продукте: About
+            Возможности: Features
+            Обзор сервисов: Services overview
+            Учёт денег: Money tracking
+            Валюты и курсы: Currencies and rates
+            Отчёты и аналитика: Reports and analytics
+            ИИ-помощник: AI assistant
+            Совместный кошелёк: Shared wallet
+            Telegram-бот: Telegram bot
+            Подключение ИИ-ассистентов (MCP): AI assistants (MCP)
+            Где пользоваться: Platforms
+            Из чего состоит: Architecture
+            Безопасность и приватность: Security and privacy
+            В разработке: Roadmap
+
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
   - tables
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -36,6 +82,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Пути — относительно папки языка; заголовки переводятся через nav_translations.
 nav:
   - О продукте: index.md
   - Возможности:

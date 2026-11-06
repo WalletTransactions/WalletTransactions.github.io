@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Check translations
+        run: python tools/check_translations.py
       - run: mkdocs build --strict
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
