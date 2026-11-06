@@ -61,6 +61,7 @@ plugins:
             Совместный кошелёк: Shared wallet
             Telegram-бот: Telegram bot
             Подключение ИИ-ассистентов (MCP): AI assistants (MCP)
+            Свой сервер дома: Self-hosting at home
             Где пользоваться: Platforms
             Из чего состоит: Architecture
             Безопасность и приватность: Security and privacy
@@ -86,6 +87,7 @@ markdown_extensions:
 # Пути — относительно папки языка; заголовки переводятся через nav_translations.
 nav:
   - О продукте: index.md
+  - Свой сервер дома: self-hosting.md
   - Возможности:
       - Обзор сервисов: services.md
       - Учёт денег: features/accounting.md

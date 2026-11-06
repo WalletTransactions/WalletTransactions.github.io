@@ -4,6 +4,9 @@
     This page describes principles; it is not a legal privacy policy. The
     policy required by Google Play has to be a separate page.
 
+- **The server is yours, at home.** No clouds: the database and the AI run
+  on your computer. What still goes to the internet (Google sign-in, rates,
+  Telegram) is listed honestly on [Your own server at home](self-hosting.md#internet).
 - **Your data on your device.** The app works with a local database; the
   server is for sync and for the features that need it.
 - **Sign in with Google**, no separate password. Tokens on the phone are kept

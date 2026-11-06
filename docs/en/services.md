@@ -16,6 +16,10 @@ or more clients.
 
 ## Cross-cutting principles
 
+**Your own server at home.**
+:   All server services and the language model run on your computer at
+    home, not in a cloud. [Learn more](self-hosting.md).
+
 **Offline first.**
 :   The phone is a full client with its own database. The server is there for
     backup, other devices, the web, the bot and AI.

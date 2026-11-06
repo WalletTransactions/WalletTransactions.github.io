@@ -2,6 +2,7 @@
 
 | What | Description |
 |---|---|
+| **Home installation kit** | A step-by-step guide and ready-made images to bring up your own server with one command |
 | **Capital** | An apartment, a car and other assets as special wallets: valuation, revaluation, invested amount, return; a "total including capital" figure |
 | **AI chat on the web** | Ask about your money in your own words right in the web dashboard |
 | **Claude cloud model** | Choose a cloud AI provider, with consent to share data |
