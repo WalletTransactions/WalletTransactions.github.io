@@ -12,7 +12,8 @@ week, month…) and **equivalent currency**.
 | **Spending structure** | Category shares for the period and how they shifted versus the previous period |
 | **Trends** | Income and expense by interval with a breakdown of the selected interval |
 | **Categories over time** | The trend of a single category |
-| **Wallets and balances** | Each wallet's balance at the start and end of the period, turnover, a 12-month sparkline, breakdown by currency |
+| **Wallets and balances** | Each wallet's balance at the start and end of the period, turnover, a 12-month sparkline, breakdown by currency; liquid money and capital shown separately, plus a "total including capital" |
+| **Capital** | Assets: invested amount, revaluation in total and for the period, value at the end of the period, return |
 | **Operations** | A day-by-day feed with search, filters by type, item and wallet, totals for the filter and top items |
 | **Exchange rates** | Pairs and rate history with manual editing |
 | **Icons** | Your icons and the shared set |

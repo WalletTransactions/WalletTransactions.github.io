@@ -3,9 +3,8 @@
 | What | Description |
 |---|---|
 | **Home installation kit** | A step-by-step guide and ready-made images to bring up your own server with one command |
-| **Capital** | An apartment, a car and other assets as special wallets: valuation, revaluation, invested amount, return; a "total including capital" figure |
-| **AI chat on the web** | Ask about your money in your own words right in the web dashboard |
+| **Debts** | Who owes whom: a debt is a wallet of a person or an organisation, "+" means they owe you, "−" means you owe them. Lending and repayment are ordinary transfers, so income and expenses stay accurate |
+| **Product help** | Ask "how does this work?" in your own words in the app and on the web — the answer comes from the product description, with links to its sections |
 | **Claude cloud model** | Choose a cloud AI provider, with consent to share data |
 | **Transfers in statements** | Detect transfers between your own wallets during import |
-| **New category analytics** | Monthly category analytics, search with spelling variants |
 | **Icon management on the web** | Upload and edit icons in the web dashboard |

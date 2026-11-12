@@ -5,7 +5,7 @@ or more clients.
 
 | Service | What you get | 📱 Android | 🌐 Web | 💬 Telegram | 🤖 AI assistant |
 |---|---|:-:|:-:|:-:|:-:|
-| [Money tracking](features/accounting.md) | Wallets, categories, income, expenses, transfers, recurring operations | ✅ | ✅ | ✅ expense entry | — |
+| [Money tracking](features/accounting.md) | Wallets, categories, income, expenses, transfers, capital, recurring operations | ✅ | ✅ | ✅ expense entry | — |
 | [Currencies and rates](features/currencies.md) | Any currency, pairs, rate history and import, equivalent totals | ✅ | ✅ | — | — |
 | [Reports and analytics](features/reports.md) | Structure, trends, balances, operations feed, period comparison | ✅ | ✅ full | ✅ brief | ✅ |
 | [AI assistant](features/ai.md) | Expenses in plain words, statement import, questions about money | ✅ | ✅ | ✅ | — |

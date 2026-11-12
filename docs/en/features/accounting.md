@@ -24,6 +24,22 @@
 - A wallet balance is never stored — it is always recomputed from operations,
   so it never drifts.
 
+## Capital
+
+An apartment, a car, a renovation are investments, not expenses. A wallet can
+be marked as a **capital asset** (real estate, a car or other):
+
+- the purchase and further investments are **transfers** into the asset, so
+  they do not inflate expenses;
+- **revaluation** is a separate entry: the asset went up or down in value,
+  while income and expenses stay the same;
+- reports show liquid money and capital separately, plus a "total including
+  capital"; for each asset you see the invested amount, revaluation and
+  return.
+
+Assets are created and revalued in the app; the web dashboard has a
+"Capital" section.
+
 ## Recurring operations
 
 Subscriptions, rent, salary: a scheduled rule creates operations by itself.

@@ -39,7 +39,9 @@ train a personal profile.
 
 > "How much did I spend on food and the nanny in September?"
 
-The bot tells a question from an expense and answers in a short dialogue with
-follow-ups. Numbers come from server reports; the model only retells them.
+Ask the bot in Telegram or the chat on the web — the "Ask AI" button is on
+every screen of the web dashboard. The bot tells a question from an expense
+and answers in a short dialogue with follow-ups; the web chat remembers
+earlier questions while the tab is open. Numbers come from server reports; the model only retells them.
 Model choice: **local** (data never leaves the server) or a cloud one — only
 with your explicit consent.
