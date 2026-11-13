@@ -38,6 +38,7 @@ what needs a "second computer":
 | | Minimum | For AI features |
 |---|---|---|
 | **Computer** | Any PC, mini PC or laptop with Linux and Docker that can stay on | Same |
+| **Memory** | 4 GB — the server itself uses about 0.5 GB | Same; +2 GB if you turn on the event log ([below](#diagnostics)) |
 | **Graphics card** | Not needed | GPU with 8 GB of VRAM (e.g. GTX 1070) for models up to 8B |
 | **Network** | Home Wi-Fi | Same |
 
@@ -55,6 +56,19 @@ app, on the web and in the bot. Add a GPU later and AI switches on by itself.
   "Integrations". Sync runs in the background as soon as the phone is home.
   Away from home the phone keeps working offline and catches up when you
   return — or through your own VPN.
+
+## Charts and event log { #diagnostics }
+
+The server comes with two **optional** add-ons for troubleshooting:
+
+- **Load charts**: memory, CPU, response times, database.
+- **An event log** you can search across all services. It uses the most
+  memory, about 1.5 GB.
+
+They are **off by default** and do not turn on by themselves after a reboot,
+so a home computer keeps its memory for real work. The server works fully
+without them, and no events are lost. They pile up in the computer's system
+journal and show up in search as soon as you turn the event log on.
 
 ## What still goes to the internet { #internet }
 
