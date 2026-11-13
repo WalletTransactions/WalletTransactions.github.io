@@ -1,12 +1,20 @@
-# wallet-site
+# WalletTransactions.github.io
 
 Сайт продукта «Посчитай и сбереги» (Count & Save): описание, бизнес-сервисы,
 возможности, состав, планы. Позже — руководство пользователя и политика
 конфиденциальности.
 
+**Сайт: <https://wallettransactions.github.io/>** (English:
+<https://wallettransactions.github.io/en/>)
+
 Собирается [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 с плагином [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/),
 публикуется в GitHub Pages workflow-ом `.github/workflows/pages.yml`.
+
+Репозиторий называется `WalletTransactions.github.io` — так GitHub отдаёт
+сайт из корня домена организации, а не из подпапки `/wallet-site/`. В
+настройках репозитория: Settings → Pages → Source: **GitHub Actions**.
+Локальная папка в рабочем каталоге по-прежнему `wallet-site/`.
 
 ```bash
 pip install -r requirements.txt
