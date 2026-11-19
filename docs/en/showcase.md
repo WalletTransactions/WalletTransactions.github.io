@@ -31,7 +31,8 @@ of is in [“Architecture”](components.md).
 
     </div>
 
-    ### Add a transaction
+    Add a transaction
+    { .showcase-h }
 
     The amount is typed on a built-in calculator keypad, then you pick a category and a wallet. Both can be searched by name.
 
@@ -52,7 +53,8 @@ of is in [“Architecture”](components.md).
 
     </div>
 
-    ### Add a transaction in your own words
+    Add a transaction in your own words
+    { .showcase-h }
 
     If tapping is a chore, write or dictate the expense: the AI parses it and fills in the same form. You save it yourself, the AI never writes to the wallet.
 
@@ -85,7 +87,8 @@ of is in [“Architecture”](components.md).
     <figcaption>Transaction list: search, category and wallet filters, a total for the selection.</figcaption>
     </figure>
 
-    ### On a phone
+    On a phone
+    { .showcase-h }
 
     The same dashboard is adapted to phones. The screenshots are taken at a mobile width.
 
