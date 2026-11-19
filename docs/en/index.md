@@ -4,6 +4,17 @@
 statements, and is equally at hand on your phone, in the browser and in
 Telegram.**
 
+<div class="hero-shots" style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:center;margin:1.5rem 0" markdown>
+<figure style="flex:0 0 200px;margin:0" markdown>
+![Android app: the transaction feed for a period with totals on top](assets/shots/android-hero.png){ loading=lazy }
+<figcaption>In your pocket: transactions and totals, even offline.</figcaption>
+</figure>
+<figure style="flex:1 1 400px;max-width:460px;margin:0" markdown>
+![Web dashboard: an overview with totals and a large monthly spending and income chart](assets/shots/web-hero.png){ loading=lazy }
+<figcaption>On a big screen: the overview of where the money goes and how it changes.</figcaption>
+</figure>
+</div>
+
 !!! tip "The server lives in your home. No clouds."
     The server runs on your own computer at home. The database, the reports
     and even the AI run on your hardware — your finances never move to

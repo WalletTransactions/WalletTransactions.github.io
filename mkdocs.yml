@@ -25,6 +25,9 @@ theme:
     - search.suggest
     - content.tabs.link
 
+extra_css:
+  - assets/extra.css
+
 plugins:
   - search
   # Локализация: docs/<locale>/ — одна папка на язык, одинаковые имена файлов.
@@ -68,6 +71,7 @@ plugins:
             Подключение ИИ-ассистентов (MCP): AI assistants (MCP)
             Свой сервер дома: Self-hosting at home
             Где пользоваться: Platforms
+            Как это выглядит: What it looks like
             Из чего состоит: Architecture
             Безопасность и приватность: Security and privacy
             В разработке: Roadmap
@@ -103,6 +107,7 @@ nav:
       - Telegram-бот: features/telegram.md
       - Подключение ИИ-ассистентов (MCP): features/mcp.md
   - Где пользоваться: platforms.md
+  - Как это выглядит: showcase.md
   - Из чего состоит: components.md
   - Безопасность и приватность: privacy.md
   - В разработке: roadmap.md

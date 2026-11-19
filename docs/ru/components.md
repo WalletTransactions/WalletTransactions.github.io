@@ -4,30 +4,78 @@
 сервисов. Каждый сервис отвечает за одну функцию.
 
 ```mermaid
-flowchart LR
-    subgraph Clients["Клиенты"]
-        APP["📱 Android"]
+flowchart TB
+    subgraph Clients["Ваши устройства и ассистенты"]
+        APP["📱 Android<br/>полная база на устройстве"]
         WEB["🌐 Веб-кабинет"]
         TG["💬 Telegram"]
-        MCPC["🤖 ИИ-ассистенты"]
+        ASSIST["🤖 Claude, LM Studio<br/>и другие MCP-клиенты"]
     end
-    GW["Шлюз"]
-    subgraph Core["Сервер"]
-        AUTH["Вход и аккаунты"]
-        LEDGER["Учёт и синхронизация"]
-        REPORT["Отчёты"]
-        AI["ИИ"]
-        MCP["MCP"]
-        BOT["Бот"]
+
+    subgraph Home["🏠 Ваш сервер"]
+        GW{{"🚪 Шлюз<br/>проверяет пропуск"}}
+        subgraph Write["Запись данных"]
+            AUTH["🔑 Вход и аккаунты"]
+            LEDGER["📒 Учёт и синхронизация"]
+        end
+        subgraph ReadOnly["Только чтение"]
+            REPORT["📊 Отчёты"]
+            MCP["🔌 MCP-сервер"]
+            AI["✨ ИИ"]
+        end
+        BOT["💬 Бот"]
+        DB[("🗄 База данных")]
     end
-    LLM["Языковая модель"]
-    APP & WEB & MCPC --> GW
-    TG <--> BOT
+
+    LLM["🧠 Языковая модель<br/>на вашей видеокарте"]
+    NET["🌍 Интернет: вход через Google,<br/>курсы валют, Telegram"]
+
+    APP -- "синхронизация" --> GW
+    WEB -- "кабинет" --> GW
+    ASSIST -- "MCP + личный токен" --> GW
+    TG <-- "сообщения" --> BOT
+
     GW --> AUTH & LEDGER & REPORT & AI & MCP
     BOT --> LEDGER & REPORT & AI
-    AI --> LLM
     MCP --> REPORT
+    AI --> LLM
+
+    LEDGER == "пишет" ==> DB
+    REPORT -. "читает" .-> DB
+    AUTH -.-> NET
+    LEDGER -.-> NET
+    BOT -.-> NET
 ```
+
+Сплошные стрелки — запросы, жирная — запись, пунктир — чтение и редкие
+обращения в интернет. Всё, что внутри рамки «Ваш сервер», работает у вас дома.
+
+## Как ответ доходит из базы до ассистента { #mcp-answer }
+
+Вы спрашиваете Claude или LM Studio о своих деньгах — модель не считает сама,
+а вызывает инструмент кошелька и пересказывает готовые цифры:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor U as Вы
+    participant C as Claude / LM Studio
+    participant G as Шлюз
+    participant M as MCP-сервер
+    participant R as Отчёты
+    participant D as База
+    U->>C: «Сколько ушло на кафе летом и зимой?»
+    C->>G: вызов инструмента + личный токен
+    G->>M: пропуск проверен
+    M->>R: запрос отчёта (только чтение)
+    R->>D: суммы считает база
+    D-->>R: итоги по месяцам
+    R-->>M: цифры, период и валюта
+    M-->>C: результат инструмента
+    C-->>U: ответ своими словами
+```
+
+Живые примеры таких ответов — на странице [«Как это выглядит»](showcase.md).
 
 ## Клиенты
 

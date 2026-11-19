@@ -3,6 +3,17 @@
 **Учёт личных финансов, который работает без интернета, понимает обычную речь
 и банковские выписки и одинаково доступен с телефона, из браузера и в Telegram.**
 
+<div class="hero-shots" style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:center;margin:1.5rem 0" markdown>
+<figure style="flex:0 0 200px;margin:0" markdown>
+![Android-приложение: лента операций за период и итоги наверху](assets/shots/android-hero.png){ loading=lazy }
+<figcaption>В кармане — операции и итоги, даже без интернета.</figcaption>
+</figure>
+<figure style="flex:1 1 400px;max-width:460px;margin:0" markdown>
+![Веб-кабинет: обзор с итогами и крупным графиком расходов и доходов по месяцам](assets/shots/web-hero.png){ loading=lazy }
+<figcaption>На большом экране — обзор: куда уходят деньги и как это меняется.</figcaption>
+</figure>
+</div>
+
 !!! tip "Сервер — у вас дома. Никаких облаков."
     Сервер ставится на ваш собственный компьютер дома. База, отчёты и даже
     ИИ работают на вашем железе — ваши финансы не уезжают ни в чьё облако.
