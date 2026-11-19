@@ -17,6 +17,11 @@
   нажатия.
 - Повторное нажатие не создаёт дубль.
 
+<figure style="max-width:420px;margin:0 auto" markdown>
+![Telegram: сообщение «12 € такси до аэропорта» и вопрос бота, с какого кошелька списать](../assets/shots/telegram-add.png){ loading=lazy }
+<figcaption>Бот понял сумму и статью и спрашивает недостающее кнопками.</figcaption>
+</figure>
+
 ## Команды
 
 | Команда | Что делает |
@@ -32,3 +37,8 @@
 
 Спросите своими словами — бот ответит по данным кошелька и уточнит, если
 вопрос неоднозначен. Модель — локальная или облачная, на ваш выбор.
+
+<figure style="max-width:420px;margin:0 auto" markdown>
+![Telegram: подтверждение записи, вопрос про кафе с ответом и команда /wallets](../assets/shots/telegram-answers.png){ loading=lazy }
+<figcaption>Вопрос по данным и команда <code>/wallets</code>.</figcaption>
+</figure>

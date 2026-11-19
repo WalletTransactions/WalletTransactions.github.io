@@ -104,6 +104,25 @@
 
     </div>
 
+=== "💬 Telegram"
+
+    Бот — ещё одно ваше «устройство»: записанное в нём сразу видно в приложении и на сайте. Трату можно написать своими словами, а если чего-то не хватает, бот спросит кнопками. Запись — только после вашего подтверждения.
+
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center" markdown>
+
+    <figure style="max-width:420px;margin:0" markdown>
+    ![Telegram: сообщение «12 € такси до аэропорта» и вопрос бота, с какого кошелька списать, кнопками «Карта Visa» и «Наличные»](assets/shots/telegram-add.png){ loading=lazy }
+    <figcaption>«12 € такси до аэропорта» — бот понял сумму и статью и спрашивает кошелёк.</figcaption>
+    </figure>
+    <figure style="max-width:420px;margin:0" markdown>
+    ![Telegram: подтверждение записи, вопрос про кафе с ответом 94,35 € в месяц и команда /wallets с остатками](assets/shots/telegram-answers.png){ loading=lazy }
+    <figcaption>Запись, вопрос по данным («сколько в среднем в месяц уходит на кафе?») и команда <code>/wallets</code>.</figcaption>
+    </figure>
+
+    </div>
+
+    Подробнее — на странице [«Telegram-бот»](features/telegram.md).
+
 === "🧩 LM Studio"
 
     Локальный ассистент отвечает на вопрос о ваших деньгах через MCP: суммы
