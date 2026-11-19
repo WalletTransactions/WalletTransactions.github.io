@@ -14,6 +14,10 @@
 </figure>
 </div>
 
+<p style="text-align:center" markdown>
+[:material-download: Скачать Android-приложение](https://github.com/WalletTransactions/android-wallet/releases/latest){ .md-button .md-button--primary }
+</p>
+
 !!! tip "Сервер — у вас дома. Никаких облаков."
     Сервер ставится на ваш собственный компьютер дома. База, отчёты и даже
     ИИ работают на вашем железе — ваши финансы не уезжают ни в чьё облако.
