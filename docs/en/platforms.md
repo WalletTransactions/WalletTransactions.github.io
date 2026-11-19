@@ -2,6 +2,10 @@
 
 === "📱 Android"
 
+    [:material-download: Download APK](https://github.com/WalletTransactions/android-wallet/releases/latest){ .md-button .md-button--primary }
+
+    The `wallet-v….apk` file is in the **Assets** block of the release. You will need to allow installs from unknown sources.
+
     - Android 8.1 or newer.
     - Works offline; syncs in the background.
     - Sign in with Google (Credential Manager).

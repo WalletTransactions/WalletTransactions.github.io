@@ -15,6 +15,10 @@ Telegram.**
 </figure>
 </div>
 
+<p style="text-align:center" markdown>
+[:material-download: Download the Android app](https://github.com/WalletTransactions/android-wallet/releases/latest){ .md-button .md-button--primary }
+</p>
+
 !!! tip "The server lives in your home. No clouds."
     The server runs on your own computer at home. The database, the reports
     and even the AI run on your hardware — your finances never move to
