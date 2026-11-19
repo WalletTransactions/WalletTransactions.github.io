@@ -17,6 +17,11 @@ from the web.
   shows a **confirmation card**. Nothing is saved until you tap.
 - Tapping twice does not create a duplicate.
 
+<figure style="max-width:420px;margin:0 auto" markdown>
+![Telegram: the message “12 € taxi to the airport” and the bot asking which wallet to use](../assets/shots/telegram-add.png){ loading=lazy }
+<figcaption>The bot got the amount and category and asks for the rest with buttons.</figcaption>
+</figure>
+
 ## Commands
 
 | Command | What it does |
@@ -33,3 +38,8 @@ from the web.
 Ask in your own words — the bot answers from your wallet data and asks for
 clarification if the question is ambiguous. The model is local or cloud, your
 choice.
+
+<figure style="max-width:420px;margin:0 auto" markdown>
+![Telegram: the saved entry, a question about cafés with the answer and the /wallets command](../assets/shots/telegram-answers.png){ loading=lazy }
+<figcaption>A question about your data and the <code>/wallets</code> command.</figcaption>
+</figure>

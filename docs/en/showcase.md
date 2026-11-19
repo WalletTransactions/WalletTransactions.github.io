@@ -105,6 +105,25 @@ of is in [“Architecture”](components.md).
 
     </div>
 
+=== "💬 Telegram"
+
+    The bot is one more “device” of yours: whatever you record in it shows up in the app and on the web right away. Write an expense in your own words, and if something is missing the bot asks with buttons. Nothing is saved until you confirm. The bot's replies here are in Russian, the language of the demo account.
+
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center" markdown>
+
+    <figure style="max-width:420px;margin:0" markdown>
+    ![Telegram: the message “12 € taxi to the airport” and the bot asking which wallet to use, with “Visa card” and “Cash” buttons](assets/shots/telegram-add.png){ loading=lazy }
+    <figcaption>“12 € taxi to the airport”: the bot got the amount and category and asks for the wallet.</figcaption>
+    </figure>
+    <figure style="max-width:420px;margin:0" markdown>
+    ![Telegram: the entry is confirmed, a question about cafés answered with 94.35 € a month, and the /wallets command with balances](assets/shots/telegram-answers.png){ loading=lazy }
+    <figcaption>The saved entry, a question about your data (“how much a month goes on cafés?”) and the <code>/wallets</code> command.</figcaption>
+    </figure>
+
+    </div>
+
+    More on the [Telegram bot](features/telegram.md) page.
+
 === "🧩 LM Studio"
 
     A local assistant answers a question about your money through MCP: the
