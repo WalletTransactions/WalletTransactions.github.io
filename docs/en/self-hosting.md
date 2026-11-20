@@ -85,5 +85,6 @@ The wallet data itself — operations, balances, statements — is stored and
 processed only on your server.
 
 !!! note "Installation guide"
-    A step-by-step guide and a ready-made home installation kit are
+    The step-by-step guide is [Installing the server at home](install.md). A
+    ready-made kit that brings everything up with one command is
     [in development](roadmap.md).

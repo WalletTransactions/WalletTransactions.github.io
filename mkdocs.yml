@@ -70,6 +70,8 @@ plugins:
             Telegram-бот: Telegram bot
             Подключение ИИ-ассистентов (MCP): AI assistants (MCP)
             Свой сервер дома: Self-hosting at home
+            Обзор: Overview
+            Установка: Installation
             Где пользоваться: Platforms
             Как это выглядит: What it looks like
             Из чего состоит: Architecture
@@ -96,7 +98,9 @@ markdown_extensions:
 # Пути — относительно папки языка; заголовки переводятся через nav_translations.
 nav:
   - О продукте: index.md
-  - Свой сервер дома: self-hosting.md
+  - Свой сервер дома:
+      - Обзор: self-hosting.md
+      - Установка: install.md
   - Возможности:
       - Обзор сервисов: services.md
       - Учёт денег: features/accounting.md
