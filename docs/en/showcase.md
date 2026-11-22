@@ -87,6 +87,11 @@ of is in [“Architecture”](components.md).
     <figcaption>Transaction list: search, category and wallet filters, a total for the selection.</figcaption>
     </figure>
 
+    <figure style="max-width:100%;margin:0 0 1rem" markdown>
+    ![Web dashboard on a desktop: the Ask panel with a question about a year of cafe spending and the assistant's answer](assets/shots/web-chat.png){ loading=lazy }
+    <figcaption>Ask: a question about your spending in plain words. The assistant takes the figures from your own data — here €1,092.57 on cafes over a year, matching the total of the transaction list for the Cafe category. The question is asked in Russian.</figcaption>
+    </figure>
+
     On a phone
     { .showcase-h }
 
