@@ -92,6 +92,11 @@ of is in [“Architecture”](components.md).
     <figcaption>Ask: a question about your spending in plain words. The assistant takes the figures from your own data — here €1,092.57 on cafes over a year, matching the total of the transaction list for the Cafe category. The question is asked in Russian.</figcaption>
     </figure>
 
+    <figure style="max-width:100%;margin:0 0 1rem" markdown>
+    ![Web dashboard on a desktop: the Help screen with the question "How do I add an expense in the app?" and a plain-language answer](assets/shots/web-help.png){ loading=lazy }
+    <figcaption>Help: a question about how to use the app. The answer comes step by step, with button names as they appear on screen. The question and the interface are in Russian.</figcaption>
+    </figure>
+
     On a phone
     { .showcase-h }
 
